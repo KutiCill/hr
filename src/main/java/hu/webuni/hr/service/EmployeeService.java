@@ -5,7 +5,9 @@ import hu.webuni.hr.model.Employee;
 public interface EmployeeService {
 	
 
-public int getPayRaisePercent (Employee employee);
+public int getPayRaisePercent (int monthPrice);
+
+//int getDefaultEmoloyeePercent(int totalMouthPrice);
 
 
 

@@ -18,13 +18,6 @@ public class SalaryService {
 	}
 
 
-	public EmployeeService getEmployeeService() {
-		return employeeService;
-	}
-
-
-	public void setEmployeeService(EmployeeService employeeService) {
-		this.employeeService = employeeService;
-	}
+	
 	
 }
