@@ -7,13 +7,12 @@ public class SalaryService {
 
 	private EmployeeService employeeService;
 	
-	public SalaryService(EmployeeService employeeService) {
-		
-		this.setEmployeeService(employeeService);
+	public SalaryService(EmployeeService employeeService) {		
+		this.employeeService= employeeService;
 	}
 	
 	
-	public int getFinalMouthPrice(int monthPrice) {
+	public int setNewSalary(Employee employee) {
 		return (int)(monthPrice / 100* (100-EmployeeService.getPayRaisePercent(monthPrice)));
 	}
 
